@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="hero">
+    <div class="navbar">
+      <img src="images/Project ARK NOX/Logo(1).png" class="logo">
+      <button type="button">Sign Up</button>
+    </div>
+    <div class="content">
+      <small>Hello Everyone</small>
+      <h1>This My Project</h1>
+        <div class="container">
+          <span class="text first-text">I'm a</span>
+          <span class="text sec-text"></span>
+        </div>
+    </div>
+    <div class="side-bar">
+      <img src="images/menu.png" class="menu">
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100022421511865&mibextid=LQQJ4d" target="_blank"><img src="images/fb.png"></a>
+        <a href="https://instagram.com/note_thanabodee?igshid=NzZhOTFlYzFmZQ==" target="_blank"><img src="images/ins.png"></a>
+      </div>
+    </div>
+    <div class="bubbles">
+      <img src="images/bubble.png">
+      <img src="images/bubble.png">
+      <img src="images/bubble.png">
+      <img src="images/bubble.png">
+      <img src="images/bubble.png">
+      <img src="images/bubble.png">
+      <img src="images/bubble.png">
+    </div>
+  </div>
+  <script>
+    const text = document.querySelector(".sec-text");
+    const textLoad = () => {
+      setTimeout(() => {
+        text.textContent = "Programmer";
+      },0);
+      setTimeout(() => {
+        text.textContent = "Student";
+      },4000);
+    }
+    textLoad();
+  </script>
+</body>
+</html>
